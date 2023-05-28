@@ -103,6 +103,7 @@ main{
     & ul{
       font-size: 4rem;
       display: grid;
+      gap: 3rem;
       grid-template-columns: 1fr 1fr;
 
       & li{
