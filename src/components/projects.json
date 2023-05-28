@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "image": "https://raw.githubusercontent.com/GaelSM/Time-Tracking-Dashboard/main/design/desktop-design.jpg",
+    "live": "https://gaelsm.github.io/Time-Tracking-Dashboard/"
+  },
+  {
+    "id": "2",
+    "image": "https://raw.githubusercontent.com/GaelSM/Advice-Generator-App/main/design/desktop-design.jpg",
+    "live": "https://gaelsm.github.io/Advice-Generator-App/"
+  },
+  {
+    "id": "3",
+    "image": "https://raw.githubusercontent.com/GaelSM/Notifications-Page/main/design/desktop-design.jpg",
+    "live": "https://gaelsm.github.io/Notifications-Page/"
+  },
+  {
+    "id": "4",
+    "image": "https://raw.githubusercontent.com/GaelSM/Interactive-Card/main/design/desktop-design.jpg",
+    "live": "https://gaelsm.github.io/Interactive-Card/"
+  }
+]
