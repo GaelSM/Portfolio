@@ -4,7 +4,7 @@ function About() {
       <h2> Sobre mí </h2>
       <div>
           <p>
-            Soy un programador apasionado y autodidacta que tiene
+            Programador apasionado y autodidacta que tiene
             experencia en <span> HTML, CSS, JavaScript y React.</span>
             <br/><br/>
             Me gustaría aprender nuevas tecnologías, principalmente
