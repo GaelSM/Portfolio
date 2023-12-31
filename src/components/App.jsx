@@ -3,16 +3,9 @@ import Header from './Header'
 import Footer from './Footer'
 import About from './About'
 import Projects from './Projects'
-import observer from "../functions/Observer"
-import { useEffect } from 'react'
 
 
-function App() {
-
-  useEffect(() => {
-    observer()
-  }, [])
-
+export default function App() {
   return (
   <>
     <Header />
@@ -27,6 +20,3 @@ function App() {
   </>
   )
 }
-
-
-export default App
