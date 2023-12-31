@@ -12,9 +12,6 @@ export default function App() {
     <main>
       <About/>
       <Projects />
-      <a href="#header" className="up">
-        <i className="fa-solid fa-arrow-up"></i>
-      </a>
     </main>
     <Footer />
   </>

@@ -5,19 +5,9 @@
     "live": "https://gaelsm.github.io/Interactive-Comments/"
   },
   {
-    "id": "2",
-    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1589469306/Challenges/boizahiijgdyynt18v9d.jpg",
-    "live": "https://gaelsm.github.io/Testimonials-Slider/"
-  },
-  {
     "id": "3",
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/wfczmy0nrltpwqyaovg6.jpg",
     "live": "https://gaelsm.github.io/Tip-Calculator/"
-  },
-  {
-    "id": "4",
-    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1631270212/Challenges/va9khukabo1wlmpzsbgi.jpg",
-    "live": "https://gaelsm.github.io/Time-Tracking-Dashboard/"
   },
   {
     "id": "5",
@@ -25,8 +15,23 @@
     "live": "https://gaelsm.github.io/Sneakers-Ecommerce/"
   },
   {
-    "id": "6",
-    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1585840948/Challenges/q54sj6blz6155goee4jd.jpg",
-    "live": "https://gaelsm.github.io/Social-Media-Dashboard/"
+    "id": "7",
+    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/vjbu8raudheodagmjfz2.jpg",
+    "live": "https://gaelsm.github.io/Todo-App/"
+  },
+  {
+    "id": "8",
+    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/wudjsbv8g93aarlhvbud.jpg",
+    "live": "https://gaelsm.github.io/Space-Tourism/"
+  },
+  {
+    "id": "9",
+    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/jfrcfmcisi1xiwm4rl1s.jpg",
+    "live": "https://gaelsm.github.io/Countries/"
+  },
+  {
+    "id": "10",
+    "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/bg1keixvsprk6ev1q8f2.jpg",
+    "live": "https://gaelsm.github.io/Rock-Paper-Scissors/"
   }
 ]
