@@ -1,36 +1,57 @@
 [
   {
     "id": "1",
+    "title": "Sección de comentarios interactivos",
+    "description": "Aplicación CRUD completa, además de hacer uso del local storage para la persistencia de datos.",
+    "technologies": ["React"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1639765916/Challenges/l3cxamx1e6vpngqjtdyt.jpg",
     "live": "https://gaelsm.github.io/Interactive-Comments/"
   },
   {
-    "id": "3",
+    "id": "2",
+    "title": "Calculadora de propinas",
+    "description": "La funcionalidad de la calculadora permite trabajar con formularios y sus respectivas validaciones",
+    "technologies": ["React"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/wfczmy0nrltpwqyaovg6.jpg",
     "live": "https://gaelsm.github.io/Tip-Calculator/"
   },
   {
-    "id": "5",
+    "id": "3",
+    "title": "Producto de comercio digital",
+    "description": "Se realiza la funcionalidad de un carrito digital, así como el de la galería de producto.",
+    "technologies": ["React"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/v1633619532/Challenges/bognvsqd34ueowkompeh.jpg",
     "live": "https://gaelsm.github.io/Sneakers-Ecommerce/"
   },
   {
-    "id": "7",
+    "id": "4",
+    "title": "Lista de tareas",
+    "description": "Una clásica aplicación, incluye un cambio de tema oscuro/claro, además contiene animaciones.",
+    "technologies": ["React", "Framer Motion"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/vjbu8raudheodagmjfz2.jpg",
     "live": "https://gaelsm.github.io/Todo-App/"
   },
   {
-    "id": "8",
+    "id": "5",
+    "title": "Turismo en el espacio",
+    "description": "Proyecto multipágina sobre el espacio, contiene multiples sliders y animaciones entre páginas.",
+    "technologies": ["React router", "Framer Motion"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/wudjsbv8g93aarlhvbud.jpg",
     "live": "https://gaelsm.github.io/Space-Tourism/"
   },
   {
-    "id": "9",
+    "id": "6",
+    "title": "Lista de paises",
+    "description": "Se hace el consumo de una API REST, así como un filtro de búsqueda, es multipágina.",
+    "technologies": ["React router"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/jfrcfmcisi1xiwm4rl1s.jpg",
     "live": "https://gaelsm.github.io/Countries/"
   },
   {
-    "id": "10",
+    "id": "7",
+    "title": "Piedra, papel o tijeras",
+    "description": "Un clásico juego",
+    "technologies": ["React"],
     "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Challenges/bg1keixvsprk6ev1q8f2.jpg",
     "live": "https://gaelsm.github.io/Rock-Paper-Scissors/"
   }

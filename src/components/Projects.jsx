@@ -7,8 +7,8 @@ function Projects() {
         <h2> Proyectos </h2>
         <div className="cards">
           {
-            data.map(({id, image, live}) => {
-              return <Card key={id} image={image} live={live}/>
+            data.map((data) => {
+              return <Card key={data.id} {...data} />
             })
           }
         </div>
