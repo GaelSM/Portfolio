@@ -1,9 +1,9 @@
 import Card from './Card'
 import data from './projects.json'
 
-function Projects() {
+export default function Projects() {
   return (
-    <section id="projects" className="observe">
+    <section id="projects">
         <h2> Proyectos </h2>
         <div className="cards">
           {
@@ -15,5 +15,3 @@ function Projects() {
       </section>
   )
 }
-
-export default Projects
