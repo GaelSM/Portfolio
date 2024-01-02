@@ -43,6 +43,13 @@ body{
   }
 }
 
+
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 /* MAIN */
 main{
   width: 100%;
@@ -52,22 +59,32 @@ main{
   position: relative;
 
   & section{
+    margin-bottom: 4rem;
     width: 740px;
     display: flex;
     flex-direction: column;
 
     & h2{
-      padding-bottom: 1rem;
-      border-bottom: 1px solid;
+      line-height: 1;
+      padding-bottom: .5rem;
+      border-bottom: 4px solid;
       font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+
+    & h3 {
+      font-size: 35px;
+      line-height: .5;
+    }
+
+    & p {
+      font-size: 22px;
+      line-height: 2;
     }
   }
 
   & #about-me div{
-    padding: 3rem 0;
-    font-size: 2rem;
     text-wrap: balance;
-    line-height: 1.5;
   }
 
   & #projects{
@@ -101,16 +118,6 @@ main{
       display: flex;
       flex-direction: column;
       gap: 20px;
-
-      & h3 {
-        font-size: 35px;
-        line-height: .5;
-      }
-
-      & p {
-        font-size: 22px;
-        line-height: 1.5;
-      }
     }
 
     & .cards{
@@ -119,64 +126,11 @@ main{
       gap: 4rem;
       justify-content: center;
       align-items: center;
-      padding: 5rem 0;
     }
   }
-
 }
 
 /* FOOTER */
-
-footer{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-
-  & ul{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-  }
-  
-  & a{
-    font-size: 1.5rem;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    color: var(--black);
-  
-    &::before{
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: .2rem;
-      bottom: -10%;
-      opacity: 0;
-      left: -50%;
-      z-index: -1;
-      transition: all .3s;
-      border-radius: 3rem;
-      background-color: var(--black);
-    }
-  
-    &:hover::before{
-      opacity: 1;
-      left: 0;
-      z-index: 1;
-    }  
-  }
-}
-
-/* ANIMACIONES */
-@keyframes openText {
-  100%{
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
 
 /* MEDIA QUERIES */
 @media (max-width: 700px) {
