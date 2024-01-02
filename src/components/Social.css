@@ -1,0 +1,34 @@
+.socials {
+  right: 40px;
+  bottom: 40px;
+  position: absolute;
+  display: flex;
+  gap: 15px;
+}
+
+.social {
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  background: var(--white);
+  color: var(--black);
+  transform: scale(1);
+  transition: background .3s ease, color .3s ease, transform .3s ease;
+
+  & i{
+    font-size: 25px;
+  }
+
+  &:hover{
+    background: var(--black);
+    color: var(--white);
+    transform: scale(1.1);
+    transition: background .3s ease, color .3s ease, transform .3s ease;
+  }
+}
