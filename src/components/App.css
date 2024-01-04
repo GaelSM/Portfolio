@@ -1,6 +1,6 @@
 :root{
   --white: #fff;
-  --black: #000000;
+  --black: #000;
 }
 
 ::-webkit-scrollbar{
@@ -17,6 +17,11 @@
 body{
   position: relative;
   user-select: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--black);
 }
 
 /* HEADER */
@@ -130,98 +135,15 @@ main{
   }
 }
 
-/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 700px) {
-  header{
-    text-align: center;
-    & div{
-      padding: 0rem;
-      & h1{
-        font-size: 4rem;
-      }
-      & h3{
-        font-size: 1.5rem;
-      }
-    }
-  }
-  main{
-    padding: 0;
-    & section{
-      display: flex;
-      flex-direction: column;
-      padding: 0rem 1rem;
-  
-      & h2{
-        text-align: center;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid;
-        font-size: 3rem;
-      }
-    }
-  
-    & #about-me{
-      margin-bottom: 5rem;
-    }
-  
-    & #about-me div{
-      padding: 3rem .5rem;
-      font-size: 1.2rem;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  
-      & ul{
-        font-size: 2.5rem;
-        display: flex;
-        gap: 2rem;
-        & li{
-          display: flex;
-        }
-      }
-    }
-  
-    & #projects{
-      margin-bottom: 0rem;
-  
-      & a{
-        position: relative;
-        width: 90%;
-        height: 30vh;
-        border-radius: .5rem;
-        box-shadow: 0rem 0rem 1.5rem rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-      
-        & img{
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          aspect-ratio: 16/9;
-        }
-      }
-  
-      & .cards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5rem 0rem;
-        gap: 3rem;
-      }
-    }
-    & .up{
-      display: none;
-    }
-  }
-  footer{
-    padding: 0 1rem;
-    & a{
-      font-size: 1rem;
-    }
-    & ul{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      text-align: center;
-    }
-  }
+
 }

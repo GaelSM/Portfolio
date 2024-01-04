@@ -1,8 +1,9 @@
 export default function Footer() {
+  const actualYear = new Date().getUTCFullYear()
   return (
     <footer>
       <div>
-        <p> &copy; 2023 </p>
+        <p> &copy; {actualYear} </p>
       </div>
     </footer>
   )
