@@ -11,6 +11,7 @@ export default function Presentation() {
         <Social src="https://www.linkedin.com/in/gaelsm/" icon="fa-brands fa-linkedin" text="LinkedIn" />
         <Social src="https://github.com/GaelSM" icon="fa-brands fa-github" text="Github" />
         <Social src="mailto:gaelsegura.mendoza@gmail.com" icon="fa-solid fa-envelope" text="Correo" />
+        <Social src="../documents/CV - Segura Mendoza Gael Alejandro" icon="fa-solid fa-file" text="View CV"/>
       </address>
     </section>
   )
