@@ -1,5 +1,6 @@
+const actualYear = new Date().getFullYear()
+
 export default function Footer() {
-  const actualYear = new Date().getUTCFullYear()
   return (
     <footer>
       <div>
