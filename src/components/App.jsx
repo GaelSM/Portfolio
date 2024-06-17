@@ -11,8 +11,8 @@ export default function App() {
   return (
     <>
       <Header />
-      <Presentation />
       <main>
+        <Presentation />
         <About />
         <Works />
         <Projects />
