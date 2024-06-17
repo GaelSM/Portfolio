@@ -1,5 +1,5 @@
 import Card from './Card'
-import data from './projects.json'
+import data from '../documents/projects.json'
 
 export default function Projects() {
   return (
