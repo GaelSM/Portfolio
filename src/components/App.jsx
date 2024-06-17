@@ -4,13 +4,13 @@ import About from './About'
 import Projects from './Projects'
 import Presentation from './Presentation'
 import Works from './Works'
-import Navbar from './Navbar'
+import Header from './Header'
 
 
 export default function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Presentation />
       <main>
         <About />
