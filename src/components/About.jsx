@@ -4,8 +4,9 @@ export default function About() {
       <h2> Sobre mí </h2>
       <div>
         <p>
-          Cuento con más de 2 años de experiencia en el Desarrollo Web. 
-          Mi objetivo es dar soluciones de alta calidad y excelencia. Soy de Querétaro, México.
+          Desarrollador Web con 2 años de experiencia. Mi objetivo es dar 
+          soluciones de alta calidad y excelencia. Utilizo como tecnologías 
+          HTML, CSS, JavaScript, React. Puedes ver algunos de mis proyectos
         </p>
       </div>
     </section>
