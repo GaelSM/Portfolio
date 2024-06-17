@@ -92,10 +92,6 @@ main{
     }
   }
 
-  & #about-me div{
-    text-wrap: balance;
-  }
-
   & #projects{
     & a{
       display: flex;
