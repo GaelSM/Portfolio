@@ -4,7 +4,7 @@ export default function About() {
       <h2> Perfil </h2>
       <div>
         <p>
-          Desarrollador Web Front-End con conocimientos sólidos en <strong>HTML, CSS, JavaScript</strong> y <strong> React </strong>.
+          Conocimientos sólidos en <strong>HTML, CSS, JavaScript</strong> y <strong> React </strong>.
         </p>
       </div>
     </section>
