@@ -5,7 +5,7 @@ export default function Presentation() {
     <section className="presentation" id="presentation">
       <div className="text">
         <h1> Gael Alejandro Segura Mendoza</h1>
-        <h3> Desarrollador Web </h3>
+        <h3> Desarrollador Web Front-End</h3>
       </div>
       <address className="socials">
         <Social src="https://www.linkedin.com/in/gaelsm/" icon="fa-brands fa-linkedin" text="LinkedIn" />
