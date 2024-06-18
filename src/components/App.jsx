@@ -1,6 +1,6 @@
 import './App.css'
 import Footer from './Footer'
-import About from './About'
+import Profile from './Profile'
 import Projects from './Projects'
 import Presentation from './Presentation'
 import Works from './Works'
@@ -13,7 +13,7 @@ export default function App() {
       <Header />
       <main>
         <Presentation />
-        <About />
+        <Profile />
         <Works />
         <Projects />
       </main>
