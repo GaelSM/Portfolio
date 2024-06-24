@@ -3,11 +3,18 @@ export default function Works() {
     <section id="experience">
       <h2> Experiencia laboral </h2>
       <div className="work">
-        <p> Junio 2023 </p>
+        <p> Junio - Agosto 2023</p>
         <h3> Programador - Soluciones Contables </h3>
+        <ul>
+          <li>
+            <strong> Automatización </strong> del envío de facturas a los clientes mediante correo electrónico.
+          </li>
+          <li>
+            <strong> Mejora </strong> en la administración de e-firmas.
+          </li>
+        </ul>
         <p>
-          Programación de macros personalizados de Excel en el lenguaje VBA, para el despacho de contadores.
-          Así como su distribución en los diferentes equipos desde el servidor.
+          Todo esto fue realizado mediante la programación de macros personalizados en Excel, y distribuidos desde el servidor.
         </p>
       </div>
     </section>
