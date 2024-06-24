@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <div>
-        <p> &copy; {actualYear} </p>
+        <p> {actualYear} </p>
       </div>
     </footer>
   )
