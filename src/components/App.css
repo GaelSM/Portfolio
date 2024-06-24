@@ -82,6 +82,10 @@ main{
     display: flex;
     flex-direction: column;
 
+    & h1 {
+      line-height: 1;
+    }
+
     & h2{
       line-height: 1;
       padding-bottom: .5rem;
@@ -137,7 +141,7 @@ main{
     & .cards{
       display: flex;
       flex-direction: column;
-      gap: 4rem;
+      gap: 7rem;
       justify-content: center;
       align-items: center;
     }
