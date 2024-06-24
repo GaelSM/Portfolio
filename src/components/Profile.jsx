@@ -4,7 +4,7 @@ export default function About() {
       <h2> Perfil </h2>
       <div>
         <p>
-          Conocimientos sólidos en <strong>HTML, CSS, JavaScript</strong> y <strong> React </strong>. Manejo de sistema de control de versiones Git y de alojamiento de repositorios Github. Proactivo, trabajo en equipo, liderazgo, búsqueda de soluciones de alta calidad.
+          Conocimientos sólidos en <strong>HTML, CSS, JavaScript</strong> y <strong> React </strong>. Manejo de sistema de control de versiones <strong> Git </strong> y de alojamiento de repositorios <strong> Github </strong>. Proactivo, trabajo en equipo, liderazgo, búsqueda de soluciones de alta calidad.
         </p>
       </div>
     </section>
