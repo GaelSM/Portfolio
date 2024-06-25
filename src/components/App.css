@@ -18,6 +18,7 @@
 }
 
 body{
+  z-index: 0;
   user-select: none;
 }
 
@@ -38,6 +39,10 @@ a{
 
 address {
   font-style: normal;
+}
+
+ul {
+  list-style: none;
 }
 
 /* HEADER */
@@ -187,6 +192,12 @@ footer {
 
   .presentation {
     padding: 0 10px;
+
+    & .text {
+      & h1{
+        font-size: 75px;
+      }
+    }
   }
 }
 /* MEDIA QUERIES */
@@ -204,10 +215,6 @@ footer {
     
     & .text{
       width: 100vw;
-  
-      & h1{
-        font-size: 75px;
-      }
   
       & h3{
         font-size: 20px;

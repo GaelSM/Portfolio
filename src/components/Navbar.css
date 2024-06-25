@@ -9,6 +9,19 @@
   background-color: var(--white);
 }
 
+.navbar .hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile {
+  display: none;
+}
+
+.show {
+  display: none;
+}
+
 .navbar ul {
   display: flex;
   list-style: none; 
@@ -38,20 +51,51 @@
 
 @media (width <= 700px) {
   .navbar {
-    z-index: 1;
+    justify-content: end;
     height: 80px;
-    position: fixed;
+    padding: 0 20px;
+  }
+
+  .show {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white);
+  }
+
+  .navbar .hamburger {
+    display: block;
+
+    & i {
+      font-size: 30px;
+    }
   }
   
   .navbar ul {
-    gap: 10px;
+    display: none;
   }
-  
-  .navbar ul li {
-    font-size: 11px;
+
+  .mobile {
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    transform: translateX(-100%);
+    transition: transform 300ms ease;
+    
+    & li a{
+      text-transform: uppercase;
+      font-size: 20px;
+      font-family: "Playfair Display", serif;
+      font-weight: 900;
+    }
+
+    &.open {
+      transform: translateX(0);
+      transition: transform 300ms ease-in-out;
+    }
   }
 }
