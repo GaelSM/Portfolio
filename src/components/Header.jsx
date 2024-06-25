@@ -9,6 +9,7 @@ export default function Header() {
     if(target.tagName !== "A") return
 
     setIsOpen(false)
+    document.body.style.overflow = ""
   }
 
   return (
@@ -24,7 +25,10 @@ export default function Header() {
 
       <nav className="navbar show">
         <div className="hamburger">
-          <i className="fa-solid fa-bars-staggered" onClick={() => setIsOpen(true)}/>
+          <i className="fa-solid fa-bars-staggered" onClick={() => {
+            setIsOpen(true)
+            document.body.style.overflow = "hidden"
+          }}/>
         </div>
       </nav>
 
