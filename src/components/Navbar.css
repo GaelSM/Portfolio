@@ -49,6 +49,18 @@
   }
 }
 
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  & i {
+    cursor: pointer;
+    font-size: 40px;
+    z-index: 3;
+  }
+}
+
 @media (width <= 700px) {
   .navbar {
     justify-content: end;
