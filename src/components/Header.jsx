@@ -6,8 +6,7 @@ export default function Header() {
 
   function handleClick(event) {
     const target = event.target
-    if(target.tagName !== "A") return
-
+    if(target.tagName !== "A" && target.tagName !== "I") return
     setIsOpen(false)
     document.body.style.overflow = ""
   }
@@ -32,7 +31,10 @@ export default function Header() {
         </div>
       </nav>
 
-      <ul className={`mobile ${isOpen ? "open" : ""}`} onClick={handleClick} >
+      <ul className={`mobile ${isOpen ? "open" : ""}`} onClick={handleClick}>
+        <div className="close">
+          <i className="fa-solid fa-xmark"></i>
+        </div>
         <li><a href="#about-me"> Perfil </a></li>
         <li><a href="#experience"> Experiencia </a></li>
         <li><a href="#projects"> Proyectos </a></li>
