@@ -17,6 +17,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding: 80px;
+}
+
 body{
   z-index: 0;
   user-select: none;
